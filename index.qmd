@@ -19,6 +19,6 @@ about:
       href: https://github.com/vladi-iit
 ---
 
-I am an Associate professor in Applied Mathematics at the Faculty of Science, University of Novi Sad, Serbia, and a Senior Researcher in the Computational Statisticsa and Machine Learning group led by [Massimilano Pontl](https://www.iit.it/it/people-details/-/people/massimiliano-pontil) at the Italian Institute of Technology in Genova, Italy.
+I am an Associate professor in Applied Mathematics at the [Faculty of Science](https://www.pmf.uns.ac.rs/en/), University of Novi Sad, Serbia, and a Senior Researcher in the [Computational Statistics and Machine Learning group](https://www.iit.it/it/computational-sciences) at the Italian Institute of Technology in Genova, Italy.
 
 My research focuses on computational mathematics, numerical linear algebra, statistics and machine learning, with a particular interest in stochastic processes and dynamical systems in general. Currently, I am working on developing novel computational methods that harness the power of ML and AI.
