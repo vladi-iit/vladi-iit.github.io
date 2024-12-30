@@ -1,0 +1,24 @@
+---
+title: "Vladimir R. Kostić"
+subtitle: "NLA & Stat tools in AI4Science"
+about:
+  template: trestles
+  image: imgs/mypic.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:vladimir.slk@gmail.com
+    - icon: google
+      text: Scholar
+      href: https://scholar.google.com/citations?user=66gV7SAAAAAJ&hl=en
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/vladimir-kostic-77500652/
+    - icon: github
+      text: GitHub
+      href: https://github.com/vladi-iit
+---
+
+I am an Associate professor in Applied Mathematics at the Faculty of Science, University of Novi Sad, Serbia, and a Senior Researcher in the Computational Statisticsa and Machine Learning group led by [Massimilano Pontl](https://www.iit.it/it/people-details/-/people/massimiliano-pontil) at the Italian Institute of Technology in Genova, Italy.
+
+My research focuses on computational mathematics, numerical linear algebra, statistics and machine learning, with a particular interest in stochastic processes and dynamical systems in general. Currently, I am working on developing novel computational methods that harness the power of ML and AI.

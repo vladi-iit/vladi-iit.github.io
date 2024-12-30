@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blogs",
+    "section": "",
+    "text": "Recent works on Operator Framework for Learning Dyanmical Systems\n\n\n\n\n\n\n\n\n\n\n\nJan 15, 2024\n\n\nVladimir R. Kostic\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2024-12-30-current-research/index.html",
+    "href": "posts/2024-12-30-current-research/index.html",
+    "title": "Recent works on Operator Framework for Learning Dyanmical Systems",
+    "section": "",
+    "text": "In this post I will try to give a brief summary of some of the key papers of my most prominent research-line on operator-based data-driven modelling techniques for dynamical systems accomplished during the past two years at Computational Statistics and Machine Learning (CSML) group of the Italian Institute of Technology (IIT). Besides the amazing team at IIT led by Massimiliano Pontil, major driving force for these projects also lies in Karim Lounici from École Polytechnique. While I discuss key papers in detail, it is worth noting that successful collaborations with other two IIT groups Dynamic Legged Systems led by Claudio Semini and Atomistic Simulations led by Michele Parrinello, resulted with joint works [P9, P10] and [P7, P11], respectively."
+  },
+  {
+    "objectID": "posts/2024-12-30-current-research/index.html#our-approach",
+    "href": "posts/2024-12-30-current-research/index.html#our-approach",
+    "title": "Recent works on Operator Framework for Learning Dyanmical Systems",
+    "section": "Our approach",
+    "text": "Our approach\nThis research line stems from the Markov/Transfer operator (TO) approach, which is a powerful framework for data-driven modelling of dynamical systems that enables the study of system evolution by lifting it to a higher-dimensional function space. For continuous-time dynamics, the Infinitesimal generator (IG) provides a more refined tool, capturing instantaneous rates of change. Unlike TOs, which describe system evolution over finite time intervals, the IG as a differential operator directly governs the system’s local behavior. The spectral decomposition of the IG and TOs is crucial for identifying dominant dynamical modes and understanding long-term behavior, particularly in stochastic or complex systems. The main reason to choose this mathematical formalism lies in our objectives to develop reliable, efficient and interpretable learning algorithms that are rooted in the careful combination of cutting-edge tools and methods of machine learning, operator theory, statistics and numerical mathematics."
+  },
+  {
+    "objectID": "posts/2024-12-30-current-research/index.html#key-publications",
+    "href": "posts/2024-12-30-current-research/index.html#key-publications",
+    "title": "Recent works on Operator Framework for Learning Dyanmical Systems",
+    "section": "Key Publications",
+    "text": "Key Publications\n\n[P1] Kostic, V. R., Novelli, P., Maurer, A., Ciliberto, C., Rosasco, L., and Pontil, M., Learning dynamical systems via Koopman operator regression in reproducing kernel Hilbert spaces. In NeurIPS 2022\n\n\n[P2] Kostic, V. R., Lounici, K., Novelli, P., and Pontil, M. (2023). Sharp spectral rates for Koopman operator learning. In NeurIPS2023\n\n\n[P3] Kostic, V. R., Inzerili, P., Lounici, K., Novelli, P., and Pontil, M. (2024). Consistent Long-Term Forecasting of Ergodic Dynamical Systems. In ICML2024\n\n\n[P4] Meanti, G., Chatalic, A., Kostic, V., Novelli, P., Pontil, M., and Rosasco, L. (2023). Estimating Koopman operators with sketching to provably learn large scale dynamical systems. In NeurIPS2023\n[P5] Kostic, V. R., Novelli, P., Grazzi, R., Lounici, K., and Pontil, M. (2024). Learning invariant representations of time-homogeneous stochastic dynamical systems. In ICLR 2024\n\n\n[P6] Kostic, V. R., Lounici, K., Halconruy, H., Devergne, T., and Pontil, M. (2024). Learning the Infinitesimal Generator of Stochastic Diffusion Processes. In NeurIPS2024\n\n\n[P7] Devergne, T., Kostic, V.R., Parrinello, M., and Pontil, M. (2024). From Biased to Unbiased Dynamics: An Infinitesimal Generator Approach. In NeurIPS2024\n\n\n[P8] Kostic, V. R., Lounici, K., Pacreau, G., Novelli, P., Turri, G., and Pontil, M. (2024). Neural Conditional Probability for Inference. In NeurIPS2024\n\n\n[P9] Ordoñez-Apraez, D., Kostic, V., Turrisi, G., Novelli, P., Mastalli, C., Semini, C., & Pontil, M. (2024). Dynamics harmonic analysis of robotic systems: Application in data-driven koopman modelling. In L4DC\n\n\n[P10] Ordoñez-Apraez, D., Turrisi, G., Kostic, V. R., Martin, M., Agudo, A., Moreno-Noguer, F., Pontil, M., Semini, C. and Mastalli, C. (2025) Morphological Symmetries in Robotics. (to appear in The International Journal of Robotics Research)\n\n\n[P11] Devergne, T., Kostic, V., Pontil, M., & Parrinello, M. (2024). Slow dynamical modes from static averages. (submitted to The Journal of Chemical Physics)"
+  },
+  {
+    "objectID": "posts/2024-12-30-current-research/index.html#key-contributions",
+    "href": "posts/2024-12-30-current-research/index.html#key-contributions",
+    "title": "Recent works on Operator Framework for Learning Dyanmical Systems",
+    "section": "Key Contributions",
+    "text": "Key Contributions\n\n\n\n\n\n\nFigure 1: Koopman Operator Regression Pipeline\n\n\n\nOur initial work on this subject [P1] established the first machine learning formulation of the problem of estimating the Koopman/Transfer operators from data, which was, despite of popularity of developed methods for this task, missing in the literature. This led to development of a methodological pipeline for data-driven dynamical systems, depicted in Figure 1, used to create the code-base Kooplear, which is in continuous development. This foundational step was indeed the beginning of understanding the possibility/impossibility results on learning these operators from finite data samples that inspired other papers that followed, ours as well as from other researchers in the field. ￼\nThe second paper [P2] introduces pivotal theoretical guarantees for learning spectral decomposition of transfer operators, a critical component for interpretable modeling of nonlinear dynamical systems. While diverse data-driven algorithms have been available, prior to this work no finite sample guarantees were existing for estimating the key aspect of TO, their spectral decomposition. Our analysis resulted in the development of novel algorithms, notably reduced rank regression (RRR), and introduced the concept of metric distortion to highlight discrepancies between estimated and true eigenfunctions. By developing the theory of sharp spectral learning rates, the paper lays the foundation for more accurate data-driven models, especially when understanding long-term behaviors of dynamical systems.\n\n\n\n\n\n\nFigure 2: Effects of metric distortion in learning eigenvalues (left) and stabilization of forecasting (right) for Ornstein-Uhlenbeck process\n\n\n\nBuilding upon these insights into spectral estimation, the paper [P3] focuses on addressing one of the key challenges in TO-based methods: long-term reliability in forecasting. While standard operator regression models often fail over extended time horizons due to error explosion or decay, this paper presents the Deflate-Learn-Inflate (DLI) paradigm, which guarantees uniform error bounds even over infinite time scales. Through a combination of eigenvalue deflation and feature centering, we provably stabilize the forecasting process, ensuring that errors remain bounded and consistent for long time horizons. This is particularly relevant in real-world applications where long-term predictions of system states are critical. Our method provides the first non-asymptotic error bounds for infinite horizon forecasting, validated through rigorous numerical experiments, e.g. Figure 2 (right). Together, these two papers contribute to the reliability of AI in scientific domains. By offering the first of their kind theoretical guarantees for both spectral estimation and long-term forecasting, they address the critical issue of ensuring that AI models not only perform well in the short term but also maintain accuracy and stability in the long run. In fields such as climate modeling, epidemiology, and molecular simulations, reliable long-term predictions are essential for informed decision-making.\n\n\n\n\n\n\nFigure 3: Free energy surface of Chignolin protein folding\n\n\n\nThe aspect of efficient learning algorithms for dynamical systems is addressed in works [P4] and [P5]. The former presents a novel method to reduce the computational complexity of kernel-based transfer operator estimation while retaining statistical accuracy by leveraging Nyström sketching. Developed methods allow the computational cost to drop from cubic to almost-linear time complexity while maintaining optimal learning rates. The results are validated through both theoretical error bounds and extensive experiments, particularly on large molecular dynamics datasets, see Figure 2 (below), where the free energy surface of the 2 slowest modes of Chignolin protein folding was estiamted. This contribution is essential for developing scalable AI with provable learning guarantees. In paper [P5] we explored learning the optimal kernel, or in other words, representation learning for dynamical systems. We, introduce Deep Projection Networks (DPNets), which allow one to combine neural networks with operator regression methods to boost the expressivity and robustness, while further reducing the computational complexity, particularly at inference. This approach provably reduces metric distortion and enhance the accuracy of forecasting and spectral decomposition, outperforming traditional methods, see Figure 3 (above).\nWorks [P6] and [P7] specifically focus on the continuous dynamics. The first one establishes a physics-informed framework for learning the infinitesimal generator (IG) of stochastic systems using reproducing kernel Hilbert spaces (RKHS). By incorporating physical priors through energy-based metrics, we provide rigorous statistical learning theory to address the challenge of learning unbounded operators. The former offers learning bounds and ensures robust spectral estimation, making it highly relevant for modeling complex systems like molecular dynamics, where interpretability and adherence to physical laws are of paramount importance. In the latter we introduce a deep learning-based method focused on physics-informed representation learning. The proposed framework addresses crucial aspect of systems that explore their state space slowly, such as molecular systems, making data acquisition very costly or even unfeasible. We show how physics informed IG method can be combined with biased simulations to provably learn the dominant spectral properties of IG, and hence discover modes of slow dynamics (meta-stable states), outperforming traditionally used TO based methods. These results significantly impact the field of atomistic simulations, where slow conformational changes are crucial for understanding molecular dynamics.\n\n\n\n\n\n\nFigure 4: First two eigenfunctions of the IG of Langevin dynamics with 2D Muller-Brown potential learned from short biased simulations\n\n\n\nTo conclude, the project [P8] introduces Neural Conditional Probability (NCP), a novel operator-theoretic approach for learning conditional distributions. This method is designed to simplify the learning of conditional distributions by using a single, unconditional training phase. The novelty lies in NCP’s ability to construct conditional confidence regions and compute important statistics like conditional quantiles, means, and covariances without the need for retraining, even when conditioning changes. By leveraging neural networks, NCP efficiently handles complex probability distributions, offering both theoretical optimization consistency and statistical guarantees. A primary motivation for this method is to address key challenges in uncertainty quantification (UQ). Current methods, such as non-parametric estimators and conformal prediction, have limitations like inefficiency when the conditioning changes, the curse of dimensionality, or overly conservative confidence intervals. NCP mitigates these issues by offering rigorous theoretical guarantees and an efficient way to compute relevant statistics. Its theoretical non-asymptotic guarantees provide strong assurances about the accuracy and reliability of the model, making it a promising tool for UQ in high-dimensional and nonlinear data settings, see e.g. Figure 5.\n\n\n\n\n\n\nFigure 5: Predicitng the quantiles for opening/closing of the Chignolin protein in the next simulatiuon step"
+  },
+  {
+    "objectID": "posts/2024-12-30-current-research/index.html#ongoing-and-future-research",
+    "href": "posts/2024-12-30-current-research/index.html#ongoing-and-future-research",
+    "title": "Recent works on Operator Framework for Learning Dyanmical Systems",
+    "section": "Ongoing and future research",
+    "text": "Ongoing and future research\nSince these two past years have been a great and rewarding research adventure, and the future is definitely full of surprises, my general focus remains on advancing the theoretical and algorithmic aspects of TO/IG-based learning for dynamical systems. Some projcet will be still theoretically driven, where we plan addressing challenges such as learning from partial observations, handling non-time-homogeneous dynamics, and learning spectral decompositions of more general systems (stochastic and deterministic). On the other hand, some of them will be aplication driven, where we plan to use our tools to advance Molecular Dynamics, Neuroscience, Climite Modeling, Robotics and Genetics. Stay tuned!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I completed my academic journey at the University of Novi Sad, Serbia, earning a B.Sc. in Applied Mathematics in 2003, followed by an M.Sc. in Numerical Mathematics in 2009, and culminating in a Ph.D. in Numerical Mathematics in 2010, all from the Depertment of Mathematics and Informatic at the Faculty of Science."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "",
+    "text": "I completed my academic journey at the University of Novi Sad, Serbia, earning a B.Sc. in Applied Mathematics in 2003, followed by an M.Sc. in Numerical Mathematics in 2009, and culminating in a Ph.D. in Numerical Mathematics in 2010, all from the Depertment of Mathematics and Informatic at the Faculty of Science."
+  },
+  {
+    "objectID": "about.html#professional-experience",
+    "href": "about.html#professional-experience",
+    "title": "About Me",
+    "section": "Professional Experience",
+    "text": "Professional Experience\nThroughout my career, I held progressively significant academic positions at the University of Novi Sad, starting as a Teaching Assistant, then advancing to Assistant Professor in Numerical Linear Algebra from 2011 to 2016, after which I became an Associate Professor. In paralel I have been Post-doctoral Researcher at Techincal University of Berlin, Germany, from 2013-2014, as well as at Italian Institute of Technology, Genova, Italy, from 2020 to 2023, and visiting Scholar at École polytechnique, Paris, France, 2003-2004. Currently, I am a Senoir Researcher in Machine Learning and Computational Statistics group led by Massimilano Pontl at the Italian Institute of Technology, Genova."
+  },
+  {
+    "objectID": "about.html#courses-taught",
+    "href": "about.html#courses-taught",
+    "title": "About Me",
+    "section": "Courses Taught",
+    "text": "Courses Taught\nDuring my careeer I have tought diverse courses, such as\n\nNumerical Linear Algebra 1 & 2 (MSc in Data Science and Applied Mathematics)\nModeling of Dynamical Systems (BSc in Applied Mathematics)\nScientific Computing (PhD in Mathematics)\nSoftware for Data Analysis (BSc in Biology and Ecology)\nMathematical and Statistical Methods in Biological Research (PhD in Biology and Ecology)"
+  },
+  {
+    "objectID": "about.html#awards-and-honors",
+    "href": "about.html#awards-and-honors",
+    "title": "About Me",
+    "section": "Awards and Honors",
+    "text": "Awards and Honors\n\nBMS Einstein Foundation Fellowship (2013)\n1st Young Scientists Award, MATTRIAD 2007 Conference\nBest Student of the University of Novi Sad Award (2004)\nThe Honor Mileva Maric-Einstein of the University of Novi Sad (2004)\nFellowship of the Fund of the Royal House of Karađorđević (2003)\nHigh Academic Achievements Award by the Kingdom of Norway (2002)\nAnnual University Honors (2001-2003)"
+  },
+  {
+    "objectID": "about.html#language-skills",
+    "href": "about.html#language-skills",
+    "title": "About Me",
+    "section": "Language Skills",
+    "text": "Language Skills\n\nSerbian (Native)\nEnglish (Advanced)\nItalian (Independent)\nFrench (Independent)"
+  },
+  {
+    "objectID": "about.html#community-engagement",
+    "href": "about.html#community-engagement",
+    "title": "About Me",
+    "section": "Community Engagement",
+    "text": "Community Engagement\n\nActive leading roles in the Serbian NGO for civic education (2008-2018)\nTrainer in meditation and mindfulness techniques (since 2010)\nConducting with Berghof Foundation Peace Building Workshops in Jordanian Refugee Camps (2017-2019)"
+  },
+  {
+    "objectID": "about.html#full-cv",
+    "href": "about.html#full-cv",
+    "title": "About Me",
+    "section": "Full CV",
+    "text": "Full CV\nFor more detailed information, you can download my full CV here."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Vladimir R. Kostić",
+    "section": "",
+    "text": "I am an Associate professor in Applied Mathematics at the Faculty of Science, University of Novi Sad, Serbia, and a Senior Researcher in the Computational Statisticsa and Machine Learning group led by Massimilano Pontl at the Italian Institute of Technology in Genova, Italy.\nMy research focuses on computational mathematics, numerical linear algebra, statistics and machine learning, with a particular interest in stochastic processes and dynamical systems in general. Currently, I am working on developing novel computational methods that harness the power of ML and AI."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "V. Kostić, K. Lounici, H. Halconruy, T. Devergne and M. Pontil. Learning the Infinitesimal Generator of Stochastic Diffusion Processes. Advances in Neural Information Processing Systems 37 (NeurIPS2024)\nT. Devergne, V. Kostić, M. Parrinello and M. Pontil. From Biased to Unbiased Dynamics: An Infinitesimal Generator Approach. Advances in Neural Information Processing Systems 37 (NeurIPS2024)\nV. Kostić, K. Lounici, G. Pacreau, P. Novelli, G. Turri and M. Pontil. Neural Conditional Probability for Inference. Advances in Neural Information Processing Systems 37 (NeurIPS2024)\nV. Kostić, P. Inzerili, K. Lounici, P. Novelli and M. Pontil. Consistent Long-Term Forecasting of Ergodic Dynamical Systems. 41st International Conference on Machine Learning (ICML 2024)\nV.R. Kostic, P. Novelli, R. Grazzi and K. Lounici. Learning Invariant Representations of Time-Homogeneous Stochastic Dynamical Systems. Twelfth International Conference on Learning Representations (ICLR 2024)\nV. Kostić and S. Salzo. Randomized Bregman Projections for Stochastic Feasibility Problems. Numerical Algorithms 93(3), pp. 1269-1307 (2022)\nV. Kostić, L. Cvetković, E. Šanca. From Pseudospectra of Diagonal Blocks to Pseudospectrum of a Full Matrix. Journal of Computational and Applied Mathematics, Vol 386, online 113265 (2020)\nV. Kostić and D. Gardašević. On the Geršgorin-type Localizations for Nonlinear Eigenvalue Problems. Applied Mathematics and Computation, Vol. 337, No 1, pp. 179-189 (2018)"
+  },
+  {
+    "objectID": "research.html#selected-journal-articles",
+    "href": "research.html#selected-journal-articles",
+    "title": "Research",
+    "section": "",
+    "text": "Morphological Symmetries in Robotics\nD. Ordoñez-Apraez, G. Turrisi, V.R. Kostic, et al.\nThe International Journal of Robotics Research (2025, Forthcoming)\nSlow Dynamical Modes from Static Averages\nT. Devergne, V.R. Kostic, M. Pontil, M. Parrinello\nSubmitted to The Journal of Chemical Physics (2024)\nRandomized Bregman Projections for Stochastic Feasibility Problems\nV. Kostić, S. Salzo\nNumerical Algorithms, 93(3), pp. 1269-1307 (2022)"
+  },
+  {
+    "objectID": "research.html#seleceted-conference-proceedings",
+    "href": "research.html#seleceted-conference-proceedings",
+    "title": "Research",
+    "section": "Seleceted Conference Proceedings",
+    "text": "Seleceted Conference Proceedings\n\nLearning the Infinitesimal Generator of Stochastic Diffusion Processes\nV.R. Kostić, K. Lounici, H. Halconruy, T. Devergne, M. Pontil\nAdvances in Neural Information Processing Systems 37 (NeurIPS 2024)\nNeural Conditional Probability for Inference\nV.R. Kostić, K. Lounici, G. Pacreau, P. Novelli, G. Turri, M. Pontil\nAdvances in Neural Information Processing Systems 37 (NeurIPS 2024)\nConsistent Long-Term Forecasting of Ergodic Dynamical Systems\nV. Kostić, P. Inzerili, K. Lounici, P. Novelli, M. Pontil\n41st International Conference on Machine Learning (ICML 2024)"
+  },
+  {
+    "objectID": "research.html#selected-publications",
+    "href": "research.html#selected-publications",
+    "title": "Research",
+    "section": "",
+    "text": "V. Kostić, K. Lounici, H. Halconruy, T. Devergne and M. Pontil. Learning the Infinitesimal Generator of Stochastic Diffusion Processes. Advances in Neural Information Processing Systems 37 (NeurIPS2024)\nT. Devergne, V. Kostić, M. Parrinello and M. Pontil. From Biased to Unbiased Dynamics: An Infinitesimal Generator Approach. Advances in Neural Information Processing Systems 37 (NeurIPS2024)\nV. Kostić, K. Lounici, G. Pacreau, P. Novelli, G. Turri and M. Pontil. Neural Conditional Probability for Inference. Advances in Neural Information Processing Systems 37 (NeurIPS2024)\nV. Kostić, P. Inzerili, K. Lounici, P. Novelli and M. Pontil. Consistent Long-Term Forecasting of Ergodic Dynamical Systems. 41st International Conference on Machine Learning (ICML 2024)\nV.R. Kostic, P. Novelli, R. Grazzi and K. Lounici. Learning Invariant Representations of Time-Homogeneous Stochastic Dynamical Systems. Twelfth International Conference on Learning Representations (ICLR 2024)\nV. Kostić and S. Salzo. Randomized Bregman Projections for Stochastic Feasibility Problems. Numerical Algorithms 93(3), pp. 1269-1307 (2022)\nV. Kostić, L. Cvetković, E. Šanca. From Pseudospectra of Diagonal Blocks to Pseudospectrum of a Full Matrix. Journal of Computational and Applied Mathematics, Vol 386, online 113265 (2020)\nV. Kostić and D. Gardašević. On the Geršgorin-type Localizations for Nonlinear Eigenvalue Problems. Applied Mathematics and Computation, Vol. 337, No 1, pp. 179-189 (2018)"
+  }
+]

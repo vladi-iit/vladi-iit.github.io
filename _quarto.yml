@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Vladimir R. Kostić"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About Me
+      - href: research.qmd
+        text: Research
+      - href: blog.qmd
+        text: Blog
+
+format:
+  html:
+    theme: cerulean
+    css: styles.css
+    toc: true
+

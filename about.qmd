@@ -1,0 +1,50 @@
+---
+title: "About Me"
+---
+
+## Education
+
+I completed my academic journey at the University of Novi Sad, Serbia, earning a B.Sc. in Applied Mathematics in 2003, followed by an M.Sc. in Numerical Mathematics in 2009, and culminating in a Ph.D. in Numerical Mathematics in 2010, all from the Depertment of Mathematics and Informatic at the Faculty of Science.
+
+## Professional Experience
+
+Throughout my career, I held progressively significant academic positions at the University of Novi Sad, starting as a Teaching Assistant, then advancing to Assistant Professor in Numerical Linear Algebra from 2011 to 2016, after which I became an Associate Professor. In paralel I have been Post-doctoral Researcher at Techincal University of Berlin, Germany, from 2013-2014, as well as at Italian Institute of Technology, Genova, Italy, from 2020 to 2023, and visiting Scholar at École polytechnique, Paris, France, 2003-2004. Currently, I am a Senoir Researcher in Machine Learning and Computational Statistics group led by Massimilano Pontl at the Italian Institute of Technology, Genova.
+
+## Courses Taught
+
+During my careeer I have tought diverse courses, such as
+
+- Numerical Linear Algebra 1 & 2 (MSc in Data Science and Applied Mathematics)
+- Modeling of Dynamical Systems (BSc in Applied Mathematics)
+- Scientific Computing (PhD in Mathematics)
+- Software for Data Analysis (BSc in Biology and Ecology)
+- Mathematical and Statistical Methods in Biological Research (PhD in Biology and Ecology)
+
+## Awards and Honors
+
+- BMS Einstein Foundation Fellowship (2013)
+- 1st Young Scientists Award, MATTRIAD 2007 Conference
+- Best Student of the University of Novi Sad Award (2004)
+- The Honor Mileva Maric-Einstein of the University of Novi Sad (2004)
+- Fellowship of the Fund of the Royal House of Karađorđević (2003)
+- High Academic Achievements Award by the Kingdom of Norway (2002)
+- Annual University Honors (2001-2003)
+
+
+## Language Skills
+
+- Serbian (Native)
+- English (Advanced)
+- Italian (Independent)
+- French (Independent)
+
+
+## Community Engagement
+
+- Active leading roles in the Serbian NGO for civic education (2008-2018)
+- Trainer in meditation and mindfulness techniques (since 2010)
+- Conducting with Berghof Foundation Peace Building Workshops in Jordanian Refugee Camps (2017-2019)
+
+## Full CV
+
+For more detailed information, you can download my full CV [here](CV_VK.pdf).

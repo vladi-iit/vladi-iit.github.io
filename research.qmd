@@ -1,0 +1,27 @@
+---
+title: "Research"
+---
+
+## Selected Publications
+
+1. V. Kostić, K. Lounici, H. Halconruy, T. Devergne and M. Pontil. **Learning the Infinitesimal Generator of Stochastic Diffusion Processes**. *Advances in Neural Information Processing Systems 37* (NeurIPS2024)
+
+2. T. Devergne, V. Kostić, M. Parrinello and M. Pontil. **From Biased to Unbiased Dynamics: An Infinitesimal Generator Approach**. *Advances in Neural Information Processing Systems 37* (NeurIPS2024)
+
+3. V. Kostić, K. Lounici, G. Pacreau, P. Novelli, G. Turri and M. Pontil. **Neural Conditional Probability for Inference**. *Advances in Neural Information Processing Systems 37* (NeurIPS2024)
+
+4. V. Kostić, P. Inzerili, K. Lounici, P. Novelli and M. Pontil. **Consistent Long-Term Forecasting of Ergodic Dynamical Systems**. *41st International Conference on Machine Learning*  (ICML 2024)
+
+5. V.R. Kostic, P. Novelli, R. Grazzi and K. Lounici. **Learning Invariant Representations of Time-Homogeneous Stochastic Dynamical Systems**. *Twelfth International Conference on Learning Representations* (ICLR 2024)
+
+6. V. R. Kostic, P. Novelli, A. Maurer, C. Ciliberto, L. Rosasco and M. Pontil. **Learning dynamical systems via Koopman operator regression in reproducing kernel Hilbert spaces**. *Advances in Neural Information Processing Systems 35* (NeurIPS2022)
+
+7. V. Kostić and S. Salzo. **Randomized Bregman Projections for Stochastic Feasibility Problems**. *Numerical Algorithms* 93(3), pp. 1269-1307 (2022)
+
+8. V. Kostić, L. Cvetković, E. Šanca. **From Pseudospectra of Diagonal Blocks to Pseudospectrum of a Full Matrix**. *Journal of Computational and Applied Mathematics*, Vol 386, online 113265 (2020)
+
+9. V. Kostić and D. Gardašević. **On the Geršgorin-type Localizations for Nonlinear Eigenvalue Problems**. *Applied Mathematics and Computation*, Vol. 337, No 1, pp. 179-189 (2018)
+
+10. V. Kostić, Lj. Cvetković and D. Lj. Cvetković, **Pseudospectra localizations and their applications**,
+*Numerical Linear Algebra with Applications* Vol 23 (2), pp. 356–372 (2016)
+
