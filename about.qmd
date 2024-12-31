@@ -8,7 +8,7 @@ I completed my academic journey at the University of Novi Sad, Serbia, earning a
 
 ## Professional Experience
 
-Throughout my career, I held progressively significant academic positions at the University of Novi Sad, starting as a Teaching Assistant, then advancing to Assistant Professor in Numerical Linear Algebra from 2011 to 2016, after which I became an Associate Professor. In paralel I have been Post-doctoral Researcher at Techincal University of Berlin, Germany, from 2013-2014, as well as at Italian Institute of Technology, Genova, Italy, from 2020 to 2023, and visiting Scholar at École polytechnique, Paris, France, 2003-2004. Currently, I am a Senoir Researcher in Machine Learning and Computational Statistics group led by Massimilano Pontl at the Italian Institute of Technology, Genova.
+Throughout my career, I held progressively significant academic positions at the University of Novi Sad, starting as a Teaching Assistant, then advancing to Assistant Professor in Numerical Linear Algebra from 2011 to 2016, after which I became an Associate Professor. In paralel I have been Post-doctoral Researcher at Techincal University of Berlin, Germany, from 2013-2014, as well as at Italian Institute of Technology, Genova, Italy, from 2020 to 2023, and visiting Scholar at École polytechnique, Paris, France, 2023-2024. Currently, I am a Senoir Researcher in Machine Learning and Computational Statistics group led by Massimilano Pontl at the Italian Institute of Technology, Genova.
 
 ## Courses Taught
 
@@ -47,4 +47,4 @@ During my careeer I have tought diverse courses, such as
 
 ## Full CV
 
-For more detailed information, you can download my full CV [here](CV_VK.pdf).
+For more detailed information, you can download my full CV [here](papers/CV_VK.pdf).

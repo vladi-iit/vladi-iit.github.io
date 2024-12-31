@@ -25,3 +25,17 @@ title: "Research"
 10. V. Kostić, Lj. Cvetković and D. Lj. Cvetković, **Pseudospectra localizations and their applications**,
 *Numerical Linear Algebra with Applications* Vol 23 (2), pp. 356–372 (2016)
 
+
+## Selected talks
+
+1. [**Learning Representations of Markov Processes**](papers/RepresentationLearing_2024.pdf) at *IEEE Conference on Decision and Control*, Milano, Italy (2024)
+
+2. [**Consistent Long-Term Forecasting of geometrically ergodic dynamical systems**](papers/Porquerolles_2024.pdf) at at *New Trends in Statistical Learning IV*, Porquerolles, France (2024)
+
+3. [**Koopman Operator Regression: Statistical Learning Perspective to Data-driven Dynamical Systems**](papers/Porquerolles%202023.pdf) at *New Trends in Statistical Learning III*, Porquerolles, France (2023) 
+
+4. [**Sharp Spectral Rates for Koopman Operator Learning**](papers/NeurIPS2023_SpectralRates_VK.pdf) at *Conference on Neural Information Processing Systems*, New Orleans, USA (2023)
+
+5. [**M -matrices as a tool for spectral and pseudospectral analysis**](papers/VKostic_NASC2019_talk.pdf) at *Conference on Numerical Linear Algebra and Scientific Computing*, Nanjing, China (2019)
+
+6. [**Matrix nearness problems for Lyapunov-type stability domains: computing Distance-to-Delocalization**](papers/VKostic_SIAM_LA15_talk.pdf) at *SIAM Conference on Applied Linear Algebra*, Atlanta, USA (2015)
