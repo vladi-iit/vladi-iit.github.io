@@ -4,6 +4,10 @@ project:
 
 website:
   title: "Vladimir R. Kostić"
+  description: "Research homepage"
+  site-url: "https://vladi-iit.github.io"
+  output-dir: "_site"
+  sitemap: true
   navbar:
     left:
       - href: index.qmd
@@ -20,4 +24,12 @@ format:
     theme: cerulean
     css: styles.css
     toc: true
+
+metadata:
+  google-site-verification: ptvClKXwnY_tTDrTyVvQ__neQ7HujvLJxaNHgfGq-BI
+  robots: index,follow
+  og:
+    image: imgs/mypic.png
+    description: "Research homepage machine learning of dynmical systems and scientific applications."
+  
 
